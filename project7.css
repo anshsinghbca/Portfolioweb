@@ -23,6 +23,7 @@ html{
     background-size:contain;
     background-repeat: no-repeat;
     background-position:right;
+    background-attachment: fixed;
     margin-left: 30px;
    
 
@@ -233,12 +234,18 @@ u{
     font-size: 2.5rem;
     margin-top: 25px;
 }
+.services{
+    height: 650px;
+}
+
+
+
 .part{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 150px;
      background-color: #212121;
 }
 
@@ -275,6 +282,7 @@ u{
 .mywork{
     height: 400px;
     width: 600px;
+    margin-top:50px;
     
     display: flex;
     justify-content: center;
@@ -300,6 +308,8 @@ u{
 
 .work{
     border-radius: 10px;
+    height: 700px;
+    
 }
 .btn{
     display: block;
@@ -307,13 +317,15 @@ u{
     width: fit-content;
     border: 1px solid #ff004f;
     border-radius: 6px;
+    border:5px;
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
     background-color: #ff004f;
+    margin-top: 40px;
 }
 .btn:hover{
-    background-color: #ff004f;
+    background-color:green;
 }
 
 .contact-section{background-color:#0f0f0f;}
@@ -380,7 +392,12 @@ button{
 /*--------------css for small*/
 @media only screen and (max-width:600px){
 
-    .header{background-image:url("anshphone.jpeg");
+    .header{
+        background-image:url("anshphone.jpeg");
+        background-size:contain;
+    background-repeat: no-repeat;
+    background-position:left;
+        
         
 
     }
@@ -439,6 +456,9 @@ button{
     .tab-link{
         font-size: 16px;
         margin-right: 20px;
+    }
+    .work{
+        margin-top:500px;
     }
 
     }
