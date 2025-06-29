@@ -442,6 +442,17 @@ button{
     }
 
     }
+
+    .div{
+    height: 50px;
+    width: 150px;
+    background-color: orange;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    color:black;
+    font-size: 1.6rem;
+}
     
 
 

@@ -47,4 +47,20 @@ function openmenu() {
 
 function closenmenu() {
     pagal.style.right = "-200px";
-}
+};
+
+
+
+
+//time
+
+
+const clock=document.querySelector(".div");
+
+setInterval(()=>{
+    let date=new Date();
+   clock.innerHTML=date.toLocaleTimeString();
+    
+
+
+},1000)
