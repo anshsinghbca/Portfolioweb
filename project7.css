@@ -397,6 +397,7 @@ button{
         background-size:contain;
     background-repeat: no-repeat;
     background-position:left;
+    flex-wrap:wrap;
    
         
 
@@ -468,6 +469,7 @@ button{
         height: 1200px;
         width: 600px;
         margin-top: 400px;
+        flex-direction: column;
         
     }
     .mywork{
