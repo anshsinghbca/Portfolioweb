@@ -389,145 +389,287 @@ button{
 
 
 
-/*--------------css for small*/
-@media only screen and (max-width:350px){
-
-    .header{
-        background-image:url("anshphone.jpeg");
-        background-size:contain;
-    background-repeat: no-repeat;
-    background-position:left;
-    flex-wrap:wrap;
-   
-        
-
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        overflow-x: hidden;
     }
 
-    body{
-        width: 350px;
-    }
-    .header-text{
-        margin-top: 100%;
-        font-size: 16px;
-
-
-    }
-    .header-text h1{
-        font-size: 30px;
-
+    .container, .container2 {
+        padding: 0 20px;
     }
 
-    #mather{
-    display:block;
-    font-size: 25px;
-    color: #fff;
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-}
-    nav ul{
-        background: #ff004f;
+    nav ul {
         position: fixed;
         top: 0;
-        right:-200px;
+        right: -100%;
         width: 200px;
         height: 100vh;
+        background-color: #ff004f;
         padding-top: 50px;
-        z-index:2;
-        transition:right 0.5s;
-
+        flex-direction: column;
+        align-items: flex-start;
+        transition: right 0.5s;
     }
-    nav ul li{
+
+    nav ul li {
+        margin: 20px 10px;
+    }
+
+    #mather {
         display: block;
-        margin:25px;
+        font-size: 24px;
+        color: #fff;
+    }
 
-    }
-    nav ul #mather{
+    nav ul #mather {
         position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
+        top: 20px;
+        left: 20px;
     }
-    .subtitle{
-        font-size: 40px;
+
+    .sometext {
+        margin-top: 80px;
+        padding: 0 10px;
     }
-    .about-col-1,.about-col-2{
-        flex-basis: 100%;
-    }
-    .about-col-1{
-        margin-bottom:30px;
-    }
-    .about-col-2{
-        font-size: 14px;
-        margin-left: 150px;
-    }
-    .tab-link{
-        font-size: 16px;
-        margin-right: 20px;
-    }
-    .work{
-        
-      
-        height: 1200px;
-        width: 600px;
-        margin-top: 400px;
+
+    .row {
         flex-direction: column;
-        
-    }
-    .mywork{
-        flex-direction: column;
-        margin-right: 500px;
-    }
-    .container2{
-        display: flex;
-        justify-content: center;
         align-items: center;
     }
-    .part{
-        margin-left: 150px;
+
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .about-col-2 {
+        padding: 0 15px;
+    }
+
+    img {
+        margin-left: 0;
+        height: auto;
+        width: 90%;
+    }
+
+    .part {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+
+    .mywork {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .work1 {
+        margin: 15px 0;
+    }
+
+    #akash {
+        width: 90%;
+        height: auto;
+    }
+
+    .contact-section {
         display: flex;
-        justify-content: space-evenly;
-    }
-    #ppp{
-        margin-left: 20px;
-        margin-right: 10px;
-    }
-    .services{
-         margin-bottom: 200px;
-         height: 1100px;
-         width: 600px;
-
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 20px;
     }
 
-    .work1{
-        margin-right: 200px;
-        margin-top: 20px;
-    }
-    
-
-
+    .contfirst, .contsecond {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
     }
 
-    .div{
-    height: 50px;
-    width: 150px;
-    background-color: orange;
-    border-radius:10px;
-    display: flex;
-    align-items: center;
-    color:black;
-    font-size: 1.6rem;
+    .services, .work {
+        height: auto;
+    }
+
+    #ttt, #my {
+        margin-left: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .sub {
+        flex-direction: column;
+    }
+
+    .div {
+        margin-top: 10px;
+    }
 }
-    
 
 
+/* KEEPING ORIGINAL STYLE, ONLY ADDING RESPONSIVE IMPROVEMENTS */
 
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
 
+    .container, .container2 {
+        padding: 0 20px;
+    }
 
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
+    nav ul {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 200px;
+        height: 100vh;
+        background-color: #ff004f;
+        padding-top: 50px;
+        flex-direction: column;
+        align-items: flex-start;
+        transition: right 0.5s;
+    }
 
+    nav ul li {
+        margin: 20px 10px;
+    }
 
+    #mather {
+        display: block;
+        font-size: 24px;
+        color: #fff;
+    }
 
+    nav ul #mather {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
 
+    .sometext {
+        margin-top: 80px;
+        padding: 0 10px;
+    }
 
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
+        text-align: center;
+    }
 
+    .about-col-2 {
+        padding: 0 15px;
+    }
 
+    img {
+        margin-left: 0;
+        height: auto;
+        width: 90%;
+    }
+
+    .part {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+
+    .mywork {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .work1 {
+        margin: 15px 0;
+    }
+
+    #akash {
+        width: 90%;
+        height: auto;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .contfirst, .contsecond {
+        width: 48%;
+        text-align: left;
+        margin: 0 auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .services, .work {
+        height: auto;
+    }
+
+    #ttt, #my {
+        margin-left: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .sub {
+        flex-direction: column;
+    }
+
+    .div {
+        margin-top: 10px;
+    }
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px;
+}
+
+.contfirst,
+.contsecond {
+    width: 100%; /* fallback */
+}
+
+@media only screen and (max-width: 768px) {
+    .contfirst,
+    .contsecond {
+        width: 100%; /* stacked by default */
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .contfirst,
+    .contsecond {
+        width: 48%; /* side-by-side from 500px+ */
+    }
+}
