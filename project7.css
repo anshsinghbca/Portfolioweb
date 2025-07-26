@@ -517,7 +517,7 @@ button{
 
 /* KEEPING ORIGINAL STYLE, ONLY ADDING RESPONSIVE IMPROVEMENTS */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 688px) {
     body {
         font-size: 14px;
         overflow-x: hidden;
@@ -571,6 +571,7 @@ button{
         align-items: center;
     }
 
+
     .about-col-1, .about-col-2 {
         flex-basis: 100%;
         text-align: center;
@@ -578,6 +579,7 @@ button{
 
     .about-col-2 {
         padding: 0 15px;
+        margin-top: 200px;
     }
 
     img {
@@ -607,6 +609,9 @@ button{
         width: 90%;
         height: auto;
     }
+    .contact_me{
+        margin-top: 350px;
+    }
 
     .contact-section {
         display: flex;
@@ -628,6 +633,11 @@ button{
 
     .services, .work {
         height: auto;
+    }
+
+    .services{
+        align-items: center;
+
     }
 
     #ttt, #my {
