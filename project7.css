@@ -88,6 +88,7 @@ img{
 .aboutme{
     padding: 100px 0;
     color: #ababab;
+    display: block;
 }
 .row{
     display: flex;
@@ -236,6 +237,14 @@ u{
 }
 .services{
     height: 650px;
+    
+    margin-left: 50px;
+   
+   
+    
+}
+.part1{
+     width:100%;
 }
 
 
@@ -247,6 +256,9 @@ u{
     align-items: center;
     margin-top: 150px;
      background-color: #212121;
+     
+    
+    
 }
 
 #ppp:hover{
@@ -257,6 +269,7 @@ u{
 #ppp{
     margin-top: 20px;
     font-size: 1.1rem;
+   
 }
 
 #my{
@@ -308,8 +321,13 @@ u{
 
 .work{
     border-radius: 10px;
-    height: 700px;
+    height: 100%;
+    margin-left: 60px;
     
+}
+
+.work a{
+    text-align: center;
 }
 .btn{
     display: block;
@@ -329,6 +347,11 @@ u{
 }
 
 .contact-section{background-color:#0f0f0f;}
+
+.contact_me{
+    margin-left: 50px;
+    padding: 10px 10px;
+}
 
 .contfirst{
     margin-left:200px;
@@ -384,6 +407,13 @@ button{
 #mather{
     display: none;
 
+}
+
+.btn2{
+    width: 100%;
+    height: 60px;
+    margin-left: 40px;
+    padding: 10px;
 }
 
 
